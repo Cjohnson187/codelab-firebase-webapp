@@ -425,3 +425,6 @@ getPerformance();
 initFirebaseAuth();
 loadMessages();
  
+
+const firebaseAppConfig = getFirebaseConfig();
+initializeApp(firebaseAppConfig);
